@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+form{
+    padding: 30px;
+    margin: 30px;
+   border-color: brown;
+    border-radius: 20px;
+    border-color: blue;
+    background-color: aqua;
+}
+label{
+    text-align: center;
+    font-family: Arial;
+    font-size: medium;
+    
+}

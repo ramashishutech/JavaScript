@@ -1,0 +1,46 @@
+body {  
+  background: rgb(28, 31, 226);  
+  font-family: 'Cinzel Decorative', cursive;  
+ }  
+ .container {  
+  text-align: center;  
+  margin: 80px auto;  
+  width: 600px;  
+  background:pink;  
+  padding: 10px;  
+  border-radius: 5px;  
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);  
+  border: 1px solid rgba(0, 0, 0, 0.4);  
+ }  
+ h1 {  
+  color:red;  
+  text-shadow: 2px 2px 0 black;  
+ }  
+ input {  
+  font-family: 'Cinzel Decorative', cursive;  
+  padding: 10px;  
+  outline: none;  
+  font-size: 18px;  
+ }  
+ #result {  
+  padding: 10px 0;  
+  font-weight: bold; 
+  color: red;
+  
+ }  
+ p.footer {  
+  font-size: 0.8rem;  
+  text-align: center;  
+ }  
+ p.footer a {  
+  text-decoration: none;  
+  color: red;  
+  border-bottom: 2px solid #ccc;  
+
+ } 
+ button {
+background-color:yellow;
+width: 70px;
+height: 20px;
+padding: auto;
+ }

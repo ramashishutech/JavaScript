@@ -12,22 +12,22 @@
 // },3000);
 // console.log("End")
 
-// //CallBacks
-//  function LoadScript(src,CallBack){
-//     var script = document.createElement("script");
-//     script.src=src;
-//     script.onload=function(){
-//         console.log("loded Script with SRC:",src)
-//         CallBack(src);
-//     }
-//     document.body.appendChild(script);
-// }
-//     function hello (src){
-//         alert('hello Word!');
-//     }
-//     function goodmorning(){
-//         alert('good morning');
-//     }
+//CallBacks
+ function LoadScript(src,CallBack){
+    var script = document.createElement("script");
+    script.src=src;
+    script.onload=function(){
+        console.log("loded Script with SRC:",src)
+        CallBack(src);
+    }
+    document.body.appendChild(script);
+}
+    function hello (src){
+        alert('hello Word!');
+    }
+    function goodmorning(){
+        alert('good morning');
+    }
     
  
-//  LoadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js",goodmorning);
+ LoadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js",goodmorning);

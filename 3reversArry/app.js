@@ -1,9 +1,26 @@
- //Q6creat a function that revers all arry
-let arry1=[1,28,45,4,51,6]
-reversArray=()=>{
-    for(let index=arry1.length;index>=0;index--){//6>=1//5>=1,
-        //console.log([index]);
-        console.log (arry1[index]);
+
+
+// let a=["Anand","Ravi","Rahul","Ashish"]
+
+//     for(var i=a.length;i>=0;i--){
+//         console.log(a[i]);
+//     }
+
+
+
+
+function reverseString(str) {
+str=document.getElementById('str').value
+    
+    let newString = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
     }
+    document.getElementById('result').innerHTML=newString
+    return newString;
+    
+
 }
-reversArray();
+
+document.getElementById("str").innerHTML=str
+

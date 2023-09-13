@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <level>Name</level>
+    <input type=" text" id="name" placeholder="enter the name">
+    <level>address</level>
+    <input type=" text" id="address" placeholder="enter the name">
+    <button onclick="Creat()">click me !</button>
+    <script>
+        var total=[]
+        function Student(a,b){
+            this.name=a;
+            this.addres=b;
+        }
+        function Creat(){
+            var id=''
+            var a=document.getElementById('name')
+            var b=document.getElementById('addrsess')
+            var student=new Student(a,b) ;
+               total.push(student);  
+           for(var i=0;i<total; i++) {
+            id[i] +=total[i]
+            return id
+
+           }                                                                  
+        }
+          console.log(total);
+          
+
+    </script>
+</body>
+</html>
